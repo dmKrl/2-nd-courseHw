@@ -11,14 +11,29 @@
     <title>Главная страница</title>
 </head>
 <body>
-    <section class="top center">
-        <header class="top_content">
-            <h1 class="top_content-heading">Добро пожаловать на мой сайт !</h1>
-            <p class="top_content-text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай  поехали и приступай
-            <form action="#" class="top_content-button">
-                <button class="top_content-buttonlink"> Поехали!</button>
-            </form>
-        </header>
-    </section>  
+    <!-- Хедер страницы -->
+    <header class="top">
+        <section class="top__box center">
+            <h1 class="top__tittle">Добро пожаловать на мой сайт !</h1>
+            <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай  поехали и приступай
+                <div class="top__btn">
+                    <button class="top__btn-link"> Поехали!</button>
+                </div>
+        </section>
+    </header> 
+    <!-- Блок с карточками -->
+    <main class="card center" id="game">
+        <div class="card__for">
+            <div class="card__item card__item-1">
+                <a class="card__for-link" href="#">Игра 1</a>
+            </div>
+            <div class="card__item card__item-2">
+                <a class="card__for-link" href="#">Игра 2</a>
+            </div>
+            <div class="card__item card__item-3">
+                <a class="card__for-link" href="#">Игра 3</a>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
