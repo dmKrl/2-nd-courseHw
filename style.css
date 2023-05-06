@@ -33,21 +33,25 @@ body {
   color: rgb(255, 255, 255);
 }
 .top__text {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #888;
+  color: rgb(255, 255, 255);
   margin-top: 32px;
   width: 481px;
   height: 64px;
+}
+.top__text-weight {
+  font-weight: 600;
 }
 .top__btn {
   margin-top: 44px;
 }
 .top__btn-link {
+  outline: non;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -56,6 +60,7 @@ body {
   width: 234px;
   height: 49px;
   background: #9C0332;
+  border: none;
   border-radius: 30px;
   color: rgb(255, 255, 255);
   transition: all 0.3s;

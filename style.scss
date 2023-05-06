@@ -34,20 +34,24 @@ body {
         color: $color-text;
     }
     &__text {
+        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 32px;
-        display: flex;
-        align-items: center;
-        color: #888;
+        color: $color-text;
         margin-top: 32px;
         width: 481px;
         height: 64px;
+        &-weight {
+            font-weight: 600;
+        }
     }
     &__btn {
         margin-top: 44px;
         &-link {
+            outline: non;
+            font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -56,6 +60,7 @@ body {
             width: 234px;
             height: 49px;
             background: #9C0332;
+            border: none;
             border-radius: 30px;
             color: $color-text;
             transition: all  0.3s;
