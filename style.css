@@ -120,4 +120,72 @@ body {
 .card__item:hover {
   transform: scale(1.02);
   box-shadow: 0 0 15px rgb(246, 11, 11);
+}
+
+@media screen and (max-width: 980px) and (min-width: 100px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    padding-top: 239px;
+    padding-bottom: 239px;
+    height: 735px;
+  }
+  .top__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__tittle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .top__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 32px;
+    width: 343px;
+    height: 66px;
+  }
+  .card__for {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .card__for-link {
+    display: flex;
+    align-items: center;
+    text-decoration-line: none;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-top: 236px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .card__item {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+    border-radius: 16px;
+    width: 343px;
+    height: 300px;
+    transition: all 0.5s;
+  }
+  .card__item-1 {
+    background-image: url(./image/game1.jpg);
+  }
+  .card__item-2 {
+    background-image: url(./image/game2.jpg);
+  }
+  .card__item-3 {
+    background-image: url(./image/game3.jpg);
+  }
 }/*# sourceMappingURL=style.css.map */
