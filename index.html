@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Главная страница</title>
 </head>
 <body>
-    
+    <!-- Хедер страницы -->
+    <header class="top">
+        <section class="top__box center">
+            <h1 class="top__tittle">Добро пожаловать <br> на мой сайт !</h1>
+            <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="top__text-weight">поехали</span> и <span class="top__text-weight">приступай</span>
+                <div class="top__btn">
+                    <button class="top__btn-link"> Поехали!</button>
+                </div>
+        </section>
+    </header> 
+    <!-- Блок с карточками -->
+    <main class="card center" id="game">
+        <div class="card__for">
+            <div class="card__item card__item-1">
+                <a class="card__for-link" href="#">Игра 1</a>
+            </div>
+            <div class="card__item card__item-2">
+                <a class="card__for-link" href="#">Игра 2</a>
+            </div>
+            <div class="card__item card__item-3">
+                <a class="card__for-link" href="#">Игра 3</a>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
