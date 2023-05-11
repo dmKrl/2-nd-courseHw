@@ -14,20 +14,20 @@ body {
 }
 
 .top {
-  padding-top: 271px;
-  height: 1024px;
   background-image: url(./image/main.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 271px;
+  height: 1024px;
 }
 .top__tittle {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
-  display: flex;
-  align-items: center;
   max-width: 788px;
   max-height: 125px;
   color: rgb(255, 255, 255);
@@ -47,10 +47,10 @@ body {
   font-weight: 600;
 }
 .top__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 44px;
-}
-.top__btn-link {
-  outline: non;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -65,17 +65,21 @@ body {
   color: rgb(255, 255, 255);
   transition: all 0.3s;
 }
-.top__btn-link:hover {
+.top__btn:hover {
   transform: scale(1.02);
   box-shadow: 0 0 8px rgb(0, 119, 238);
 }
+.top__btn-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 .card {
-  transition: all 0.3s;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  transition: all 0.3s;
   gap: 32px;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -85,6 +89,9 @@ body {
   gap: 32px;
 }
 .card__for-link {
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
   padding-left: 32px;
   padding-bottom: 32px;
   padding-top: 236px;
@@ -93,9 +100,6 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-decoration-line: none;
 }
 .card__item {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
