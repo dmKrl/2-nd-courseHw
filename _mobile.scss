@@ -1,0 +1,74 @@
+@media screen and (max-width: 980px) and (min-width: 100px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+// Блок Хедер
+    .top {
+        padding-top: 239px;
+        padding-bottom: 239px;
+
+        height: 735px;
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tittle {
+            text-align: center;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text {
+            text-align: center;
+
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            margin-top: 32px;
+            width: 343px;
+            height: 66px;
+        }
+    }
+    // Блок с карточками
+    .card {
+        &__for {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            &-link {
+                display: flex;
+                align-items: center;
+                text-decoration-line: none;
+    
+                padding-left: 32px;
+                padding-bottom: 32px;
+                padding-top: 236px;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+        &__item {
+            background: linear-gradient(180deg, rgba(39, 1, 15, 0)0%, #001944 100%);
+            border-radius: 16px;
+            width: 343px;
+            height: 300px;
+            transition: all 0.5s;
+            &-1 {
+                background-image: url(./image/game1.jpg);
+            }
+            &-2 {
+                background-image: url(./image/game2.jpg);
+            }
+            &-3 {
+                background-image: url(./image/game3.jpg);
+            }
+        }
+    }
+}
