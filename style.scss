@@ -14,7 +14,9 @@ body {
     padding-right: calc(50% - 600px);
 }
 
+
 // Хедер страницы
+
 .top {
     background-image: url(./image/main.jpg);
     background-repeat: no-repeat;
@@ -80,7 +82,9 @@ body {
 
 }
 
+
 // Блок с карточками
+
 .card {
     display: flex;
     flex-direction: row;
@@ -131,4 +135,4 @@ body {
     }
 }
 
-@import '_mobile.scss';
+@import 'mobile.scss';
