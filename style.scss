@@ -14,7 +14,9 @@ body {
     padding-right: calc(50% - 600px);
 }
 
+
 // Хедер страницы
+
 .top {
     background-image: url(./image/main.jpg);
     background-repeat: no-repeat;
@@ -60,7 +62,6 @@ body {
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
-        color: #FFFFFF;
         width: 234px;
         height: 49px;
         background: #9C0332;
@@ -79,8 +80,8 @@ body {
     }
 
 }
-
 // Блок с карточками
+
 .card {
     display: flex;
     flex-direction: row;
@@ -131,4 +132,4 @@ body {
     }
 }
 
-@import '_mobile.scss';
+@import 'mobile.scss';
