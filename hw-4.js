@@ -102,21 +102,21 @@
 
 // Task-8
 
-// function game1() {
-//     const numMonth = Number(prompt('Введите номер месяца!'));
-//         if (numMonth === 12 || numMonth <= 2 && numMonth > 0) {
-//             alert('Зима');
-//         }
-//         if (numMonth >= 3 && numMonth <= 5) {
-//             alert('Весна');
-//         }
-//         if (numMonth >= 6 && numMonth <= 8) {
-//             alert('Лето');
-//         }
-//         if (numMonth >= 9 && numMonth <= 11) {
-//             alert('Осень');
-//         } 
-//         if (numMonth < 1 || numMonth > 12 || typeof numMonth !== 'number') {
-//             alert('Такого времени года нет!');
-//         }
-// }
+function game1() {
+    const numMonth = Number(prompt('Введите номер месяца!'));
+        if (numMonth === 12 || numMonth <= 2 && numMonth > 0) {
+            alert('Зима');
+        }
+        if (numMonth >= 3 && numMonth <= 5) {
+            alert('Весна');
+        }
+        if (numMonth >= 6 && numMonth <= 8) {
+            alert('Лето');
+        }
+        if (numMonth >= 9 && numMonth <= 11) {
+            alert('Осень');
+        } 
+        if (numMonth < 1 || numMonth > 12 || typeof numMonth !== 'number') {
+            alert('Такого времени года нет!');
+        }
+}
