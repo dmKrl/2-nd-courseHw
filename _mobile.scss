@@ -74,34 +74,69 @@
 
     // Блок с игрой - Времена года!
 
-.season {
-    background: #000915;
-    margin-top: 234px;
-    height: 800px;
-    &__box {
-        display: flex;
-        flex-direction: column;
-    }
-    &__place {
-        align-items: center;
+    .season {
+        background: #000915;
+        margin-top: 234px;
+        height: 800px;
+        &__box {
+            display: flex;
+            flex-direction: column;
+        }
+        &__place {
+            align-items: center;
 
-        width: 343px;
-        height: 218px;
-        margin-bottom: 64px;
-    }
-    &__title {
-        font-size: 32px;
-        line-height: 39px;
-    }
-    &__text {
-        text-align: center;
+            width: 343px;
+            height: 218px;
+            margin-bottom: 64px;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text {
+            text-align: center;
 
-        font-size: 14px;
-        line-height: 22px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__img {
+            width: 344px;
+            height: 236px;
+        }
     }
-    &__img {
-        width: 344px;
-        height: 236px;
+
+        // Блок с игрой - Запомнить слова!
+
+    .remember {
+        background: #000915;
+        margin-top: 234px;
+        height: 800px;
+        &__box {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &__place {
+            align-items: center;
+
+            width: 343px;
+            height: 218px;
+            margin-bottom: 64px;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text {
+            text-align: center;
+
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__img {
+            width: 344px;
+            height: 236px;
+        }
     }
-  }
 }
+
+    
